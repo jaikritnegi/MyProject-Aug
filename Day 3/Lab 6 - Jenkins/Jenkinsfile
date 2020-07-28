@@ -14,7 +14,7 @@ pipeline {
       steps{
         script {
           imageName = registry + ":$BUILD_NUMBER"
-          context = "'.'"
+          context = "'./Day 3/Lab 6 - Jenkins'"
           dockerImage = docker.build(imageName, context)
         }
       }
