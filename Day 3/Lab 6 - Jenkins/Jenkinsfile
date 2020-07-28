@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "cloudgeek007/piper"
-    registryCredential = 'dockerhub'
+    registryCredential = 'dockerhub1'
   }  
   agent any
   stages {
